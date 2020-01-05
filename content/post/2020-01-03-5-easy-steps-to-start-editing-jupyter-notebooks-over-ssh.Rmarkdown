@@ -1,4 +1,5 @@
 ---
+draft: yes
 title: 5 easy steps to start editing jupyter notebooks over SSH
 author: Chen Canyi
 date: '2020-01-03'
@@ -15,6 +16,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+markup: blackfriday
 ---
 
 ## Host
@@ -67,3 +69,4 @@ ps -eaf | grep "jupyter" | grep -v grep | awk '{ print $2 }' | xargs kill -9
 * [https://blog.csdn.net/handavy/article/details/83503323](https://blog.csdn.net/handavy/article/details/83503323)
 * [https://www.looklinux.com/grep-find-process-id-and-kill-it-in-linuxunix/](https://www.looklinux.com/grep-find-process-id-and-kill-it-in-linuxunix/)
 * [https://www.unix.com/shell-programming-and-scripting/267304-kill-nohup-process-changing-pid.html](https://www.unix.com/shell-programming-and-scripting/267304-kill-nohup-process-changing-pid.html)
+
