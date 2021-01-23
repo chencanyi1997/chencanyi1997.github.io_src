@@ -19,5 +19,37 @@ projects: []
 This post mainly follows [The whole game](https://r-pkgs.org/whole-game.html
 ).
 
+* Load Preliminaries
+
+```r
+library(devtools)
+```
+* Create Package
+
+```r
+create_package("~/path/to/PACKAGENAME")
+```
+
+* `use_git()`
+
+```r
+# Initial set up
+git config --global user.name "YOUR FULL NAME"
+git config --global user.email "YOUR EMAIL ADDRESS"
+
+use_git()
+```
+
+* `use_r()`
+
+```r
+use_r('gen_data')
+```
+
+* `use_package()`
+
+
+
+
 ## References
 * [R packages](https://r-pkgs.org/)
